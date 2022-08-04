@@ -18,7 +18,7 @@ r/f will control J2 up/down, and
 q/e will control the grasper open/close.
 Press enter to send your command.
 
-If your servos respond well to commands, excellent! explore the range of motion in each direction, and note the pulselength number reported on the serial monitor when the mechanism binds or the servo stops responding. This is either your maximum or minimum pulselength for that joint, and you should note it down along with the degree measurement it corresponds to. It may be a good idea to make your degree measurements and axes correspond with those given in the figures in assignment 4.
+If your servos respond well to commands, excellent! explore the range of motion in each direction, and when the mechanism binds or the servo stops responding, reverse direction until movement is detected. Note the pulselength displayed for that joint in the serial monitor. This is either your maximum or minimum pulselength for that joint, and you should record it along with the degree measurement it corresponds to. It may be a good idea to make your degree measurements and axes correspond with those given in the figures in assignment 4.
 
 Once you have recorded pulselength and degree measurements for each extent of each joint, you can enter them in joint_angle_control.ino, save, and load joint_angle_control.ino onto your Mega.
 
